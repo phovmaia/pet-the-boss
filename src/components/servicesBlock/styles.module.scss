@@ -1,0 +1,26 @@
+@import '../../sass/variables.scss';
+
+.serviceBlock {
+  margin: 50px 10px 10px 10px;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 80px;
+  background-color: $yellow;
+}
+
+.serviceBlockTitle {
+  padding: 10px;
+  color: $black;
+  font-size: 36px;
+  font-family: $poppins;
+  font-weight: 900;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.serviceBlockText {
+  padding: 10px;
+  font-size: 28px;
+  color: $black;
+  font-family: $poppins;
+}

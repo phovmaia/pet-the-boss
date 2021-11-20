@@ -1,0 +1,83 @@
+@import '../../sass/variables.scss';
+
+.navbar {
+  margin: 10px 10px 10px 10px;
+  padding: 20px 0;
+  border-radius: 80px;
+  background-color: $yellow;
+}
+
+.navbarInner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarLeft {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.logo {
+  margin: 0px 10px 0px 10px;
+  color: $black;
+  font-size: 26px;
+  text-decoration: none;
+  font-family: $poppins;
+  font-weight: 700;
+  position: relative;
+
+  &:before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    margin: 0 10px 0 10px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 2px solid $black;
+  }
+}
+
+.list {
+  margin: 0 10px 0 10px;
+  padding: 0;
+  display: flex;
+}
+
+.listItem {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  a {
+    padding: 10px;
+    color: $black;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: $poppins;
+    text-transform: lowercase;
+  }
+}
+
+.contact {
+  margin: auto;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.cta {
+  // TODO decide background-color gray, white, or no box
+  color: $black;
+  padding: 10px 15px;
+  border-radius: 80px;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: $white;
+  font-family: $poppins;
+  margin: 0 10px 0 10px;
+  text-transform: lowercase;
+}
