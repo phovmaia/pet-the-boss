@@ -1,8 +1,8 @@
 @import '../../sass/variables.scss';
 
 .navbar {
-  margin: 10px 10px 10px 10px;
-  padding: 20px 0;
+  margin: 10px 25px 30px 25px;
+  padding: 10px;
   border-radius: 80px;
   background-color: $yellow;
 }
@@ -20,20 +20,26 @@
   align-items: center;
 }
 
+.navbarRight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .logo {
   margin: 0px 10px 0px 10px;
   color: $black;
-  font-size: 26px;
+  font-size: 28px;
   text-decoration: none;
   font-family: $poppins;
   font-weight: 700;
   position: relative;
 
   &:before {
+    margin: 10px;
     content: '';
-    width: 28px;
-    height: 28px;
-    margin: 0 10px 0 10px;
+    width: 26px;
+    height: 26px;
     vertical-align: middle;
     display: inline-block;
     border: 2px solid $black;
@@ -51,6 +57,7 @@
   padding: 0;
   list-style-type: none;
   a {
+    margin: 0;
     padding: 10px;
     color: $black;
     display: block;
@@ -71,13 +78,13 @@
 .cta {
   // TODO decide background-color gray, white, or no box
   color: $black;
-  padding: 10px 15px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 80px;
   font-size: 20px;
   display: inline-block;
   text-decoration: none;
   background-color: $white;
   font-family: $poppins;
-  margin: 0 10px 0 10px;
   text-transform: lowercase;
 }
